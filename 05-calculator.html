@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Calculator - JavaScript Practice</title>
+  <link rel="stylesheet" href="05-calculator.css">
+  <script src="05-calculator.js" defer></script>
+</head>
+<body>
+  <main>
+    <p><a href="index.html">← Back to assignment</a></p>
+    <h1>Simple Calculator</h1>
+    <p>Choose an operation and enter two numbers. Division by zero is not allowed.</p>
+    <form id="answer-form"><label for="first">First number</label><input name="first" id="first" type="number" step="any" required><label for="operation">Operation</label><select name="operation" id="operation"><option value="+">Addition (+)</option><option value="-">Subtraction (−)</option><option value="*">Multiplication (×)</option><option value="/">Division (÷)</option></select><label for="second">Second number</label><input name="second" id="second" type="number" step="any" required><button type="submit">Calculate</button><p class="result" id="result" aria-live="polite">Your result will appear here.</p></form>
+  </main>
+</body>
+</html>
